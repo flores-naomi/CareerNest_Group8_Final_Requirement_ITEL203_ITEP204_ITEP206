@@ -1,6 +1,5 @@
 <?php
 require_once 'includes/session.php';
-require_once 'includes/header.php';
 require_once 'config/db.php';
 
 // Check if company is logged in
@@ -42,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['job_id'])) {
         $_SESSION['error'] = "Error deleting job: " . $e->getMessage();
     }
 }
-
+require_once 'includes/header.php';
 // Redirect back to company dashboard
 header('Location: company_dashboard.php');
 exit(); 

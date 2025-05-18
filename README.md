@@ -8,6 +8,12 @@ Ranas, Renz Tyron
 System Name: Careernest
 A job portal system, made by beginners.
 
+Features:
+1. Users can register between user(job seekers) or company
+2. User/job seekers can apply, find job using the filters
+3. Company can post jobs, receive applications, create interview schedules
+4. Admin - manage all the users, companies, jobs and schedules in the system
+
 Instructions: 
 1. Setup database
 2. Open any database application

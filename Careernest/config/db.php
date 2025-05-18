@@ -2,7 +2,7 @@
 $host = 'localhost';
 $db   = 'careernest_db';
 $user = 'root';
-$pass = ''; // your MySQL password
+$pass = ''; // your MySQL password (if your MySQL has one)
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";

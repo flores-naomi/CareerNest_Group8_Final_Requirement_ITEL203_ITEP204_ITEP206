@@ -1,6 +1,5 @@
 <?php
 require_once 'includes/session.php';
-require_once 'includes/header.php';
 require_once 'config/db.php';
 
 // Check if user is logged in and is an admin
@@ -122,6 +121,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $error = "Error updating interview: " . $e->getMessage();
     }
 }
+require_once 'includes/header.php';
 ?>
 
 <div class="container py-4">
